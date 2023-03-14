@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Picolé</title>
+</head>
+<body>
+      
+    <fieldset>
+        <legend> Dados pessoais</legend>
+        Nome:
+        <input type="text" class="caixa_larga" id="nome">
+        <br><br>
+        Endereço:
+        <input type="text" class="caixa_larga" id="endereço">
+        <br><br>
+        Cidade:
+        <input type="text" class="caixa_larga" id="cidade">
+        <br><br>
+        Estado:
+        
+        
+        <select id="estado" class="estado">
+            <option>Amapá</option>
+            <option>Amazonas</option>
+            <option>Acre</option>
+            <option>Bahia</option>
+            <option>Paraná</option>
+            <option>Rio grande do Sul</option>
+            <option>São Paulo</option>
+            <option selected>Santa Catarina</option>
+        </select>
+        <br><br>
+    </fieldset>
+    <fieldset>
+        <legend> Dados profissionais</legend>
+        Natureza do cargo
+        <br><br>
+        <input type="radio" class="cargos" id="pimenta" name="cargos">
+        Gerência
+        
+        <input type="radio" class="cargos" id="cenoura" name="cargos">
+        Financeiro
+
+        <input type="radio" class="cargos" id="cimento" name="cargos">
+        Recepção
+
+        <input type="radio" class="cargos" id="abobora" name="cargos">
+        Administrativo
+        
+        <input type="radio" class="cargos" id="cimento" name="cargos">
+        Jurídico
+        <br>    <br>
+        Área de interesse
+        <br>
+        <input type="checkbox" class="areas" id="computacao">Computação
+        <input type="checkbox" class="areas" id="biologia">Biologia
+        <input type="checkbox" class="areas" id="meioambiente">Meio Ambiente
+        <input type="checkbox" class="areas" id="engengaria">Engenharia
+        <input type="checkbox" class="areas" id="historia">História
+        <br><br>
+        Mini-curriculo
+        <br>
+        <textarea class="texto" id="curriculo"></textarea>
+    </fieldset>
+        <br> 
+        <div class="botoes">
+            <button>Enviar</button>
+            <button>Limpar</button>
+        </div>
+
+
+</body>
+</html>
